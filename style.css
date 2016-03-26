@@ -52,7 +52,11 @@ a:link {
 }
 
 .top-navigation {
-	background-color: #fff
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
 }
 
 .top-navigation .links {
@@ -92,8 +96,6 @@ a:link {
 	font-size: 2rem;
 	text-align: center;
 	overflow: auto;
-
-
 }
 
 
@@ -109,13 +111,42 @@ a:link {
     border-radius: 4px;
     padding: 1rem 1.5rem;
 	margin-top: .5em;
+	color: white;
 	}
 
 button:hover{
 	background-color: #EE7600;
 }
 
+.tile-section{
+	margin: 0 0;
+	display: center;
+}
 
+.cases {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.tiles {
+	width: 33.333333%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin: 10px;
+	height: 10em;
+}
+
+.main {
+	color: black;
+	margin: auto;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+}
 
 .one-half {
 	width: 100%;
