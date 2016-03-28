@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: garamond;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
 	color: #838994;
@@ -34,6 +34,12 @@ li > a {
 	width: 2em;
 }
 
+li {
+	display: inline-block;
+	box-sizing: border-box;
+
+}
+
 a:hover {
   color: #57A4D4;
   cursor: pointer;
@@ -47,6 +53,13 @@ a {
 	color: #838994;
 }
 
+hr {
+	width: 75%;
+	margin: 0 auto;
+	 display: block;
+   	margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .active {
 	color: #4c5058;
@@ -85,8 +98,8 @@ a {
     color: #333333;
 }
 
-.content {
-	padding: 1rem 2rem;
+.top-navigation .content {
+	padding: 1rem 6rem;
 }
 
 .introduction {
@@ -102,10 +115,17 @@ a {
 }
 
 
-.introduction-text {
+.introduction h1 {
 	margin-bottom: .5em;
+	font-size: 3.125rem;
+	font-weight: 300;
 }
 
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+    font-weight: 300;
+}
 .buttons {
 
 	text-shadow: none;
@@ -113,8 +133,9 @@ a {
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-	margin-top: .5em;
+	margin-top: 2rem;
 	color: white;
+	font-size: 1.125rem;
 	}
 
 button:hover{
@@ -170,14 +191,43 @@ button:hover{
 	font-weight: 100;
 }
 
+
+
+.cases .icons li {
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	display: inline-block;
+	color: #838994;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+	border: solid;
+	border-width: thin;
+	border-radius: 20px;
+}
+
+.cases h5 {
+	font-family: garamond;
+    font-weight: 400;
+    font-size: 16px;
+	letter-spacing: 0.03em;
+}
+
 .one-half {
 	width: 100%;
 }
 
+.copy {
+	color: #838994;
+}
+
+.social {
+	margin: 0 0 6rem 0;
+}
+
 @media only screen and (min-width: 540px) {
 
-	.one-half {
+.one-half {
 		width: 50%;
 	}	
-
 }
