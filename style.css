@@ -41,8 +41,10 @@ a:hover {
 
 a:link {
 	text-decoration: none;
-	color: none;
+}
 
+a {
+	color: #838994;
 }
 
 
@@ -65,6 +67,7 @@ a:link {
     color: #838994;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
+    padding-right: 1em;
 
 }
 
@@ -106,7 +109,7 @@ a:link {
 .buttons {
 
 	text-shadow: none;
-	background-color: orange;
+	background-color: #f15a29;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
@@ -115,37 +118,56 @@ a:link {
 	}
 
 button:hover{
-	background-color: #EE7600;
+	background-color: #d56900;
 }
 
 .tile-section{
 	margin: 0 0;
-	display: center;
+}
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
 }
 
 .cases {
-	display: inline-block;
 	margin: auto;
 	text-align: center;
 	width: 100%;
+	color: black;
+	padding-top: 3em;
 }
 
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    }
+
 .tiles {
-	width: 33.333333%;
 	display: inline-block;
-	border: 1px solid black;
 	box-sizing: border-box;
-	margin: 10px;
-	height: 10em;
+	margin: 0;
+	padding: 0;
 }
 
 .main {
 	color: black;
-	margin: auto;
+	margin:0 auto;
 	text-align: center;
 	margin-top: 2em;
 	margin-bottom: 2em;
 
+}
+
+.caption {
+	margin: 2em;
+}
+
+.caption h3 {
+	font-size: 2em;
+	font-weight: 100;
 }
 
 .one-half {
